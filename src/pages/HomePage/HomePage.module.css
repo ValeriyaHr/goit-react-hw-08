@@ -1,0 +1,7 @@
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    font-size: 40px;
+}
