@@ -12,11 +12,11 @@ import RestrictedRoute from "../RestrictedRoute";
 
 import { refreshUser } from "../../redux/auth/operations";
 
-const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
-const ContactsPage = lazy(() => import("../pages/ContactsPage/ContactsPage"));
-const LoginPage = lazy(() => import("../pages/LoginPage/LoginPage"));
+const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
+const ContactsPage = lazy(() => import("../../pages/ContactsPage/ContactsPage"));
+const LoginPage = lazy(() => import("../../pages/LoginPage/LoginPage"));
 const RegistrationPage = lazy(() =>
-  import("../pages/RegistrationPage/RegistrationPage")
+  import("../../pages/RegistrationPage/RegistrationPage")
 );
 
 function App() {
