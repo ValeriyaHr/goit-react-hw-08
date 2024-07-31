@@ -1,0 +1,10 @@
+.searchBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.searchInput {
+    max-width: 300px;
+    min-height: 30px;
+}

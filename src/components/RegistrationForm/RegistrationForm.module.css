@@ -1,0 +1,29 @@
+.form {
+    padding: 20px;
+}
+
+.formList {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 20px;
+}
+
+.formList li {
+    display: flex;
+    flex-direction: column;
+}
+
+.formList li label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formList li span {
+    font-size: 15px;
+    color: red;
+}
+
+.formButton {
+    margin-top: 20px;
+}

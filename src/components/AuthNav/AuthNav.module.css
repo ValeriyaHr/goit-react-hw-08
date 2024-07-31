@@ -1,0 +1,19 @@
+.authNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.loginLink {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.registerLink {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}

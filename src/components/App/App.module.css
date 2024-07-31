@@ -1,0 +1,9 @@
+.text {
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
