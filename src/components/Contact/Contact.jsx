@@ -1,8 +1,8 @@
 import css from "./Contact.module.css";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
-import { deleteContact } from "../../../redux/contacts/operations";
-import DeleteModal from "../../DeleteModal/DeleteModal";
+import { deleteContact } from "../../redux/contacts/operations";
+import DeleteModal from "../DeleteModal/DeleteModal";
 
 const Contact = ({ id, name, phone }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
