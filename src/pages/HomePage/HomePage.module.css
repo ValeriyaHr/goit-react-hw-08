@@ -1,7 +1,9 @@
 .mainTitle {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    min-height: 700px;
-    font-size: 40px;
+    align-items: start;
+    font-size: 28px;
+    margin-bottom: 28px;
 }
+
